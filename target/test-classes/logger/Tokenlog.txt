@@ -1,0 +1,22 @@
+Request method:	POST
+Request URI:	https://webapps.tekstac.com/OAuthRestApi/webapi/auth/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	auth_code=f1lLj-PCorHtDep20un_Tw
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 62
+Date: Wed, 13 Aug 2025 06:38:27 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "access_token": "2g5W2vlHVLBd9ste4Btol3rLgKn6D8eyhaaeAt4ZpS0"
+}

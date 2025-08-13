@@ -1,0 +1,499 @@
+Request method:	POST
+Request URI:	https://webapps.tekstac.com/OAuthRestApi/webapi/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	username=user1
+				password=pass123
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 38
+Date: Wed, 13 Aug 2025 08:53:50 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "auth_code": "08rtJqgDdCDc_MPNYg7Wlw"
+}
+Request method:	POST
+Request URI:	https://webapps.tekstac.com/OAuthRestApi/webapi/auth/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	auth_code=08rtJqgDdCDc_MPNYg7Wlw
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 62
+Date: Wed, 13 Aug 2025 08:53:53 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "access_token": "bWOri8j3RPKG9i9sDkEV15zo78hs4nV8Qy7L2sNd9gM"
+}
+Request method:	POST
+Request URI:	https://webapps.tekstac.com/TrainAPI/BookingService/addBooking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	bookingId=15
+				bookingDate=01/01/2022
+				departCity=Coimbatore
+				arrivalCity=Chennai
+				passengerCount=3
+				trainName=Chennai Express
+				passengerName=Sam
+				trainClass=THIRDAC
+				ticketType=GENERAL
+Path params:	<none>
+Headers:		Authorization=Bearer bWOri8j3RPKG9i9sDkEV15zo78hs4nV8Qy7L2sNd9gM
+				Accept=application/json
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 640
+Date: Wed, 13 Aug 2025 08:53:54 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+[
+    {
+        "bookingId": 1001,
+        "bookingDate": "23/11/2021",
+        "departCity": "Chennai",
+        "arrivalCity": "Coimbatore",
+        "passengerCount": 1,
+        "trainName": "Chennai Express",
+        "passengerName": "Rakesh",
+        "trainClass": "SLEEPER",
+        "ticketType": "GENERAL"
+    },
+    {
+        "bookingId": 3101,
+        "bookingDate": "24/12/2021",
+        "departCity": "Chennai",
+        "arrivalCity": "Madurai",
+        "passengerCount": 1,
+        "trainName": "Madurai Express",
+        "passengerName": "Priya",
+        "trainClass": "THIRDAC",
+        "ticketType": "GENERAL"
+    },
+    {
+        "bookingId": 15,
+        "bookingDate": "01/01/2022",
+        "departCity": "Coimbatore",
+        "arrivalCity": "Chennai",
+        "passengerCount": 3,
+        "trainName": "Chennai Express",
+        "passengerName": "Sam",
+        "trainClass": "THIRDAC",
+        "ticketType": "GENERAL"
+    }
+]
+Request method:	POST
+Request URI:	https://webapps.tekstac.com/TrainAPI/BookingService/addBooking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	bookingId=16
+				bookingDate=02/01/2022
+				departCity=Madurai
+				arrivalCity=Chennai
+				passengerCount=1
+				trainName=Madurai Express
+				passengerName=Priya
+				trainClass=SLEEPER
+				ticketType=GENERAL
+Path params:	<none>
+Headers:		Authorization=Bearer bWOri8j3RPKG9i9sDkEV15zo78hs4nV8Qy7L2sNd9gM
+				Accept=application/json
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 639
+Date: Wed, 13 Aug 2025 08:53:54 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+[
+    {
+        "bookingId": 1001,
+        "bookingDate": "23/11/2021",
+        "departCity": "Chennai",
+        "arrivalCity": "Coimbatore",
+        "passengerCount": 1,
+        "trainName": "Chennai Express",
+        "passengerName": "Rakesh",
+        "trainClass": "SLEEPER",
+        "ticketType": "GENERAL"
+    },
+    {
+        "bookingId": 3101,
+        "bookingDate": "24/12/2021",
+        "departCity": "Chennai",
+        "arrivalCity": "Madurai",
+        "passengerCount": 1,
+        "trainName": "Madurai Express",
+        "passengerName": "Priya",
+        "trainClass": "THIRDAC",
+        "ticketType": "GENERAL"
+    },
+    {
+        "bookingId": 16,
+        "bookingDate": "02/01/2022",
+        "departCity": "Madurai",
+        "arrivalCity": "Chennai",
+        "passengerCount": 1,
+        "trainName": "Madurai Express",
+        "passengerName": "Priya",
+        "trainClass": "SLEEPER",
+        "ticketType": "GENERAL"
+    }
+]
+Request method:	POST
+Request URI:	https://webapps.tekstac.com/TrainAPI/BookingService/addBooking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	bookingId=17
+				bookingDate=03/01/2022
+				departCity=Bangalore
+				arrivalCity=Hyderabad
+				passengerCount=2
+				trainName=Bangalore Express
+				passengerName=Anil
+				trainClass=SECONDAC
+				ticketType=GENERAL
+Path params:	<none>
+Headers:		Authorization=Bearer bWOri8j3RPKG9i9sDkEV15zo78hs4nV8Qy7L2sNd9gM
+				Accept=application/json
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 645
+Date: Wed, 13 Aug 2025 08:53:54 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+[
+    {
+        "bookingId": 1001,
+        "bookingDate": "23/11/2021",
+        "departCity": "Chennai",
+        "arrivalCity": "Coimbatore",
+        "passengerCount": 1,
+        "trainName": "Chennai Express",
+        "passengerName": "Rakesh",
+        "trainClass": "SLEEPER",
+        "ticketType": "GENERAL"
+    },
+    {
+        "bookingId": 3101,
+        "bookingDate": "24/12/2021",
+        "departCity": "Chennai",
+        "arrivalCity": "Madurai",
+        "passengerCount": 1,
+        "trainName": "Madurai Express",
+        "passengerName": "Priya",
+        "trainClass": "THIRDAC",
+        "ticketType": "GENERAL"
+    },
+    {
+        "bookingId": 17,
+        "bookingDate": "03/01/2022",
+        "departCity": "Bangalore",
+        "arrivalCity": "Hyderabad",
+        "passengerCount": 2,
+        "trainName": "Bangalore Express",
+        "passengerName": "Anil",
+        "trainClass": "SECONDAC",
+        "ticketType": "GENERAL"
+    }
+]
+Request method:	POST
+Request URI:	https://webapps.tekstac.com/TrainAPI/BookingService/addBooking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	bookingId=18
+				bookingDate=04/01/2022
+				departCity=Mumbai
+				arrivalCity=Pune
+				passengerCount=1
+				trainName=Mumbai Local
+				passengerName=Sneha
+				trainClass=SLEEPER
+				ticketType=GENERAL
+Path params:	<none>
+Headers:		Authorization=Bearer bWOri8j3RPKG9i9sDkEV15zo78hs4nV8Qy7L2sNd9gM
+				Accept=application/json
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 632
+Date: Wed, 13 Aug 2025 08:53:54 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+[
+    {
+        "bookingId": 1001,
+        "bookingDate": "23/11/2021",
+        "departCity": "Chennai",
+        "arrivalCity": "Coimbatore",
+        "passengerCount": 1,
+        "trainName": "Chennai Express",
+        "passengerName": "Rakesh",
+        "trainClass": "SLEEPER",
+        "ticketType": "GENERAL"
+    },
+    {
+        "bookingId": 3101,
+        "bookingDate": "24/12/2021",
+        "departCity": "Chennai",
+        "arrivalCity": "Madurai",
+        "passengerCount": 1,
+        "trainName": "Madurai Express",
+        "passengerName": "Priya",
+        "trainClass": "THIRDAC",
+        "ticketType": "GENERAL"
+    },
+    {
+        "bookingId": 18,
+        "bookingDate": "04/01/2022",
+        "departCity": "Mumbai",
+        "arrivalCity": "Pune",
+        "passengerCount": 1,
+        "trainName": "Mumbai Local",
+        "passengerName": "Sneha",
+        "trainClass": "SLEEPER",
+        "ticketType": "GENERAL"
+    }
+]
+Request method:	POST
+Request URI:	https://webapps.tekstac.com/TrainAPI/BookingService/addBooking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	bookingId=19
+				bookingDate=05/01/2022
+				departCity=Delhi
+				arrivalCity=Agra
+				passengerCount=4
+				trainName=Agra Express
+				passengerName=Rahul
+				trainClass=FIRSTAC
+				ticketType=GENERAL
+Path params:	<none>
+Headers:		Authorization=Bearer bWOri8j3RPKG9i9sDkEV15zo78hs4nV8Qy7L2sNd9gM
+				Accept=application/json
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 631
+Date: Wed, 13 Aug 2025 08:53:56 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+[
+    {
+        "bookingId": 1001,
+        "bookingDate": "23/11/2021",
+        "departCity": "Chennai",
+        "arrivalCity": "Coimbatore",
+        "passengerCount": 1,
+        "trainName": "Chennai Express",
+        "passengerName": "Rakesh",
+        "trainClass": "SLEEPER",
+        "ticketType": "GENERAL"
+    },
+    {
+        "bookingId": 3101,
+        "bookingDate": "24/12/2021",
+        "departCity": "Chennai",
+        "arrivalCity": "Madurai",
+        "passengerCount": 1,
+        "trainName": "Madurai Express",
+        "passengerName": "Priya",
+        "trainClass": "THIRDAC",
+        "ticketType": "GENERAL"
+    },
+    {
+        "bookingId": 19,
+        "bookingDate": "05/01/2022",
+        "departCity": "Delhi",
+        "arrivalCity": "Agra",
+        "passengerCount": 4,
+        "trainName": "Agra Express",
+        "passengerName": "Rahul",
+        "trainClass": "FIRSTAC",
+        "ticketType": "GENERAL"
+    }
+]
+Request method:	GET
+Request URI:	https://webapps.tekstac.com/TrainAPI/BookingService/viewBookingList
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer bWOri8j3RPKG9i9sDkEV15zo78hs4nV8Qy7L2sNd9gM
+				Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 429
+Date: Wed, 13 Aug 2025 08:53:56 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+[
+    {
+        "bookingId": 1001,
+        "bookingDate": "23/11/2021",
+        "departCity": "Chennai",
+        "arrivalCity": "Coimbatore",
+        "passengerCount": 1,
+        "trainName": "Chennai Express",
+        "passengerName": "Rakesh",
+        "trainClass": "SLEEPER",
+        "ticketType": "GENERAL"
+    },
+    {
+        "bookingId": 3101,
+        "bookingDate": "24/12/2021",
+        "departCity": "Chennai",
+        "arrivalCity": "Madurai",
+        "passengerCount": 1,
+        "trainName": "Madurai Express",
+        "passengerName": "Priya",
+        "trainClass": "THIRDAC",
+        "ticketType": "GENERAL"
+    }
+]
+Request method:	GET
+Request URI:	https://webapps.tekstac.com/TrainAPI/BookingService/viewBookingById/1001
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1001
+Headers:		Accept=application/json
+				Authorization=Bearer bWOri8j3RPKG9i9sDkEV15zo78hs4nV8Qy7L2sNd9gM
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 215
+Date: Wed, 13 Aug 2025 08:53:56 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "bookingId": 1001,
+    "bookingDate": "23/11/2021",
+    "departCity": "Chennai",
+    "arrivalCity": "Coimbatore",
+    "passengerCount": 1,
+    "trainName": "Chennai Express",
+    "passengerName": "Rakesh",
+    "trainClass": "SLEEPER",
+    "ticketType": "GENERAL"
+}
+Request method:	GET
+Request URI:	https://webapps.tekstac.com/TrainAPI/BookingService/viewBookingByClass?trainClass=SLEEPER
+Proxy:			<none>
+Request params:	<none>
+Query params:	trainClass=SLEEPER
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer bWOri8j3RPKG9i9sDkEV15zo78hs4nV8Qy7L2sNd9gM
+				Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 215
+Date: Wed, 13 Aug 2025 08:53:57 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "bookingId": 1001,
+    "bookingDate": "23/11/2021",
+    "departCity": "Chennai",
+    "arrivalCity": "Coimbatore",
+    "passengerCount": 1,
+    "trainName": "Chennai Express",
+    "passengerName": "Rakesh",
+    "trainClass": "SLEEPER",
+    "ticketType": "GENERAL"
+}
+Request method:	DELETE
+Request URI:	https://webapps.tekstac.com/TrainAPI/BookingService/deleteBookingById/1001
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1001
+Headers:		Authorization=Bearer bWOri8j3RPKG9i9sDkEV15zo78hs4nV8Qy7L2sNd9gM
+				Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 213
+Date: Wed, 13 Aug 2025 08:53:57 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+[
+    {
+        "bookingId": 3101,
+        "bookingDate": "24/12/2021",
+        "departCity": "Chennai",
+        "arrivalCity": "Madurai",
+        "passengerCount": 1,
+        "trainName": "Madurai Express",
+        "passengerName": "Priya",
+        "trainClass": "THIRDAC",
+        "ticketType": "GENERAL"
+    }
+]

@@ -1,0 +1,33 @@
+Request method:	DELETE
+Request URI:	https://webapps.tekstac.com/TrainAPI/BookingService/deleteBookingById/1001
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1001
+Headers:		Authorization=Bearer 2g5W2vlHVLBd9ste4Btol3rLgKn6D8eyhaaeAt4ZpS0
+				Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 213
+Date: Wed, 13 Aug 2025 06:38:34 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+[
+    {
+        "bookingId": 3101,
+        "bookingDate": "24/12/2021",
+        "departCity": "Chennai",
+        "arrivalCity": "Madurai",
+        "passengerCount": 1,
+        "trainName": "Madurai Express",
+        "passengerName": "Priya",
+        "trainClass": "THIRDAC",
+        "ticketType": "GENERAL"
+    }
+]

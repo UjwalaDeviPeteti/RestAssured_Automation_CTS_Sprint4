@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Report Theme -->
+        <theme>dark</theme> <!-- Options: standard, dark -->
+
+        <!-- Document Title -->
+        <documentTitle>Automation Test Report</documentTitle>
+
+        <!-- Report Name -->
+        <reportName>API Automation Test Execution</reportName>
+
+        <!-- Encoding -->
+        <encoding>UTF-8</encoding>
+
+        <!-- Chart Settings -->
+        <chartsVisibilityOnOpen>true</chartsVisibilityOnOpen>
+        <timelineEnabled>true</timelineEnabled>
+        <enableOfflineMode>true</enableOfflineMode> <!-- Useful when no internet -->
+
+        <!-- Chart Location -->
+        <testViewChartLocation>top</testViewChartLocation> <!-- Options: top, bottom -->
+
+        <!-- Custom CSS -->
+        <css>
+            body { font-family: 'Segoe UI', Arial, sans-serif; }
+            .brand-logo { font-size: 20px; font-weight: bold; }
+            .test-name { color: #00E676 !important; }
+            .status.pass { background-color: #00C853 !important; }
+            .status.fail { background-color: #D50000 !important; }
+            .status.skip { background-color: #FFD600 !important; }
+        </css>
+
+        <!-- Custom JS -->
+        <js>
+            document.title = 'Automation Execution Report';
+            console.log('Extent Report Loaded Successfully!');
+        </js>
+
+        <!-- Timeline Chart Settings -->
+        <timelineChart>true</timelineChart>
+        <chartVisibilityOnOpen>true</chartVisibilityOnOpen>
+
+        <!-- Auto-Configuration -->
+        <protocol>https</protocol>
+    </configuration>
+</extentreports>

@@ -1,0 +1,57 @@
+[
+  {
+    "bookingId": "15",
+    "bookingDate": "01/01/2022",
+    "departCity": "Coimbatore",
+    "arrivalCity": "Chennai",
+    "passengerCount": "3",
+    "trainName": "Chennai Express",
+    "passengerName": "Sam",
+    "trainClass": "THIRDAC",
+    "ticketType": "GENERAL"
+  },
+  {
+    "bookingId": "16",
+    "bookingDate": "02/01/2022",
+    "departCity": "Madurai",
+    "arrivalCity": "Chennai",
+    "passengerCount": "1",
+    "trainName": "Madurai Express",
+    "passengerName": "Priya",
+    "trainClass": "SLEEPER",
+    "ticketType": "GENERAL"
+  },
+  {
+    "bookingId": "17",
+    "bookingDate": "03/01/2022",
+    "departCity": "Bangalore",
+    "arrivalCity": "Hyderabad",
+    "passengerCount": "2",
+    "trainName": "Bangalore Express",
+    "passengerName": "Anil",
+    "trainClass": "SECONDAC",
+    "ticketType": "GENERAL"
+  },
+  {
+    "bookingId": "18",
+    "bookingDate": "04/01/2022",
+    "departCity": "Mumbai",
+    "arrivalCity": "Pune",
+    "passengerCount": "1",
+    "trainName": "Mumbai Local",
+    "passengerName": "Sneha",
+    "trainClass": "SLEEPER",
+    "ticketType": "GENERAL"
+  },
+  {
+    "bookingId": "19",
+    "bookingDate": "05/01/2022",
+    "departCity": "Delhi",
+    "arrivalCity": "Agra",
+    "passengerCount": "4",
+    "trainName": "Agra Express",
+    "passengerName": "Rahul",
+    "trainClass": "FIRSTAC",
+    "ticketType": "GENERAL"
+  }
+]

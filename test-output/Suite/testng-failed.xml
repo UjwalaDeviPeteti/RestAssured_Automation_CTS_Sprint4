@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Testcase.AuthRequest">
+        <methods>
+          <include name="post"/>
+        </methods>
+      </class> <!-- Testcase.AuthRequest -->
+      <class name="Testcase.GetListRequest">
+        <methods>
+          <include name="getList"/>
+        </methods>
+      </class> <!-- Testcase.GetListRequest -->
+      <class name="Testcase.PostAddRequest">
+        <methods>
+          <include name="add"/>
+        </methods>
+      </class> <!-- Testcase.PostAddRequest -->
+      <class name="Testcase.DeleteIdRequest">
+        <methods>
+          <include name="deleteId"/>
+        </methods>
+      </class> <!-- Testcase.DeleteIdRequest -->
+      <class name="Testcase.TokenRequest">
+        <methods>
+          <include name="post1"/>
+        </methods>
+      </class> <!-- Testcase.TokenRequest -->
+      <class name="Testcase.GetIdRequest">
+        <methods>
+          <include name="getId"/>
+        </methods>
+      </class> <!-- Testcase.GetIdRequest -->
+      <class name="Testcase.GetClassRequest">
+        <methods>
+          <include name="getclass"/>
+        </methods>
+      </class> <!-- Testcase.GetClassRequest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

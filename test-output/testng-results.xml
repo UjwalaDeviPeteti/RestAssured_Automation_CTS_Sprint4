@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-13T11:56:03 IST" name="Suite" finished-at="2025-08-13T11:56:20 IST" duration-ms="16488">
+    <groups>
+    </groups>
+    <test started-at="2025-08-13T11:56:03 IST" name="Test" finished-at="2025-08-13T11:56:20 IST" duration-ms="16488">
+      <class name="Testcase.DeleteIdRequest">
+        <test-method signature="deleteId()[pri:7, instance:Testcase.DeleteIdRequest@21d03963]" started-at="2025-08-13T11:56:19 IST" name="deleteId" finished-at="2025-08-13T11:56:20 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteId -->
+      </class> <!-- Testcase.DeleteIdRequest -->
+      <class name="Testcase.GetIdRequest">
+        <test-method signature="getId()[pri:5, instance:Testcase.GetIdRequest@47c81abf]" started-at="2025-08-13T11:56:18 IST" name="getId" finished-at="2025-08-13T11:56:19 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getId -->
+      </class> <!-- Testcase.GetIdRequest -->
+      <class name="Testcase.GetClassRequest">
+        <test-method signature="getclass()[pri:6, instance:Testcase.GetClassRequest@776a6d9b]" started-at="2025-08-13T11:56:19 IST" name="getclass" finished-at="2025-08-13T11:56:19 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getclass -->
+      </class> <!-- Testcase.GetClassRequest -->
+      <class name="Testcase.PostAddRequest">
+        <test-method signature="add()[pri:3, instance:Testcase.PostAddRequest@3f1d2e23]" started-at="2025-08-13T11:56:16 IST" name="add" finished-at="2025-08-13T11:56:18 IST" duration-ms="2101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+      </class> <!-- Testcase.PostAddRequest -->
+      <class name="Testcase.GetListRequest">
+        <test-method signature="getList()[pri:4, instance:Testcase.GetListRequest@536dbea0]" started-at="2025-08-13T11:56:18 IST" name="getList" finished-at="2025-08-13T11:56:18 IST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getList -->
+      </class> <!-- Testcase.GetListRequest -->
+      <class name="Testcase.TokenRequest">
+        <test-method signature="post1()[pri:2, instance:Testcase.TokenRequest@4bff7da0]" started-at="2025-08-13T11:56:16 IST" name="post1" finished-at="2025-08-13T11:56:16 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1 -->
+      </class> <!-- Testcase.TokenRequest -->
+      <class name="Testcase.AuthRequest">
+        <test-method signature="post()[pri:1, instance:Testcase.AuthRequest@7d61eb55]" started-at="2025-08-13T11:56:03 IST" name="post" finished-at="2025-08-13T11:56:15 IST" duration-ms="12298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+      </class> <!-- Testcase.AuthRequest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
