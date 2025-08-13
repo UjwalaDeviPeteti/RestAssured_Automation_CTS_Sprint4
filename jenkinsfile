@@ -1,0 +1,48 @@
+pipeline {
+    agent any
+
+    tools {
+        maven 'Maven3'   // Maven tool name from Jenkins settings
+        jdk 'JDK17'      // JDK tool name from Jenkins settings
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                echo "📥 Checking out code from Git repository..."
+                git branch: 'main', url: 'https://github.com/yourusername/your-repo.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                echo "🏗 Building the project with Maven..."
+                bat "mvn clean install"
+            }
+        }
+
+        stage('Test') {
+            steps {
+                echo "🧪 Running tests..."
+                bat "mvn test"
+            }
+        }
+
+        stage('Archive Results') {
+            steps {
+                echo "📦 Archiving test reports..."
+                archiveArtifacts artifacts: '**/target/surefire-reports/*.xml', allowEmptyArchive: true
+                junit '**/target/surefire-reports/*.xml'
+            }
+        }
+    }
+
+    post {
+        success {
+            echo "✅ Pipeline completed successfully!"
+        }
+        failure {
+            echo "❌ Pipeline failed. Check the logs!"
+        }
+    }
+}
