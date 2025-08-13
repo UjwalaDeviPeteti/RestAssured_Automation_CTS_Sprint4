@@ -6,13 +6,7 @@ pipeline {
         jdk 'JDK11'      // JDK tool name from Jenkins settings
     }
 
-    stages {
-        stage('Checkout') {
-            steps {
-                echo "📥 Checking out code from Git repository..."
-                git branch: 'main', url: 'https://github.com/yourusername/your-repo.git'
-            }
-        }
+    
 
         stage('Build') {
             steps {
